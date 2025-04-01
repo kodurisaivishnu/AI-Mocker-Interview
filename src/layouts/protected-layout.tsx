@@ -5,6 +5,8 @@ import LoaderPage from "@/routes/LoaderPage";
 
 const ProtectedLayout = ({ children }:{children : React.ReactNode }) => {
 
+
+
   const {isLoaded, isSignedIn}  = useAuth();
 
   if(!isLoaded){

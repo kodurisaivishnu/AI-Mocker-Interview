@@ -8,6 +8,7 @@ import ProtectedLayout from "@/layouts/protected-layout";
 import MainLayout from "@/layouts/main-layout";
 
 function App() {
+  
   return (
     <Router>
       <Routes>
