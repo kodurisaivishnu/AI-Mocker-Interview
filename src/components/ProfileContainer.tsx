@@ -16,6 +16,6 @@ const ProfileContainer = () => {
       {isSignedIn ? (<UserButton afterSignOutUrl="/"/>) : (<Link to={"/auth/signin"}> <Button size={"sm"}>Get Started</Button> </Link>)}
     </div>
   )
-}
+} 
 
 export default ProfileContainer
